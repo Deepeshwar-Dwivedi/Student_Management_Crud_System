@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+.container {
+    width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px 40px 40px 40px;
+    box-shadow: 0px 0px 10px #aaa;
+    border-radius: 8px;
+}
+h1, h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+form input {
+    padding: 8px;
+    width: 120px;
+}
+form button {
+    padding: 8px 12px;
+    background: #3b8beb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button#updateBtn {
+    background: #ffc107;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.action-btn {
+    padding: 4px 8px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.edit-btn {
+    background: #ffc107;
+    color: #333;
+}
+.delete-btn {
+    background: #e04b4b;
+    color: #fff;
+}
